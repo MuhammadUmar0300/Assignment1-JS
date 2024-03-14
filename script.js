@@ -55,6 +55,14 @@ document.getElementById("mul").onclick = function(){
 }
 // Divide 2 Numbers
 document.getElementById("div").onclick = function(){
+    let a = 870;
+    let b= 70;
+    let result = a/b;
+    document.getElementById("statement").innerHTML = `a = ${a} <br/> b = ${b} <br/> `
+    document.getElementById("output").innerText = `a / b  = ${result}`
+}
+// Calculation Of number
+document.getElementById("cal").onclick = function(){
     let a = 600;
     let b= 70;
     let c = 17;
